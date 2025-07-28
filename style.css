@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.head {
+    font-size: 70px;
+    text-align: center;
+    font-family: AvenirNext, Arial, Helvetica, sans-serif;
+}
+.outerbox{
+    height: 90vh;
+    margin-top: -70px;
+}
+p{
+    pointer-events: none;
+}
+#grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.box {
+    border: 1px solid white;
+    height: 155px;
+    text-align: center;
+    align-items: center;
+}
+.letter {
+    font-size: 100px;
+    color: white;
+}
+
