@@ -28,6 +28,11 @@ p{
     text-align: center;
     align-items: center;
 }
+@media (max-width :470px) {
+    .box {
+        height: 100px;
+    }
+}
 .letter {
     font-size: 100px;
     color: white;
